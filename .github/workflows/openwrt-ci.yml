@@ -163,7 +163,7 @@ jobs:
 
           # 常用软件包:
           cat >> .config <<EOF
-          CONFIG_PACKAGE_openwrt-hev-socks5-server=y
+          CONFIG_PACKAGE_hev-socks5-server=y
           EOF
 
           # 取消编译VMware镜像以及镜像填充 (不要删除被缩进的注释符号):
