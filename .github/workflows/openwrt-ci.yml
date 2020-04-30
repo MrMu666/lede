@@ -57,11 +57,7 @@ jobs:
           git clone https://github.com/tty228/luci-app-serverchan.git
           
           
-      - name: thednspod
-        run: |
-          cd package
-          cd openwrt-packages
-          git clone https://github.com/MrMu666/ddns-scripts_dnspod.git
+
 
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
