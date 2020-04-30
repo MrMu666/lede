@@ -56,11 +56,6 @@ jobs:
           cd openwrt-packages
           git clone https://github.com/tty228/luci-app-serverchan.git  https://github.com/MrMu666/ddns-scripts_dnspod.git
           
-      - name: thednspod
-        run: |
-          cd package
-          cd openwrt-packages
-          git clone https://github.com/MrMu666/ddns-scripts_dnspod.git
 
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
@@ -195,7 +190,6 @@ jobs:
           # CONFIG_PACKAGE_UnblockNeteaseMusicGo=y
           CONFIG_PACKAGE_curl=y
           CONFIG_PACKAGE_iputils=y
-          CONFIG_PACKAGE_ddns-scripts_dnspod=y
           # CONFIG_PACKAGE_nano=y
           # CONFIG_PACKAGE_wget=y
           EOF
