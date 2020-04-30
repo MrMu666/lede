@@ -53,14 +53,12 @@ jobs:
       - name: theserverchan
         run: |
           cd package
-          mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/tty228/luci-app-serverchan.git  https://github.com/MrMu666/ddns-scripts_dnspod.git
           
       - name: thednspod
         run: |
           cd package
-          mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/MrMu666/ddns-scripts_dnspod.git
 
